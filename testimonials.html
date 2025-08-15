@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Testimonials - Timmy Works Consulting</title>
+<link rel="stylesheet" href="styles/style.css">
+<link rel="icon" href="styles/img/banner.png">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            <a href="index.html" class="">
+                <img src="styles/img/logo.png" alt="Timmy Works Consulting Logo">
+            </a>
+        </div>
+<!--         <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> -->
+         <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <!-- <div class="nav-links"> -->
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="testimonials.html" style="color:#0077ff;">Testimonials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        <!-- </div> -->
+    </nav>
+</header>
+<!-- Page Header -->
+<div class="pageheaders">
+    <h1>What Our Clients Say</h1>
+    <p>We pride ourselves on delivering exceptional FileMaker solutions tailored to our clients’ needs. Here’s what they have to say about working with us.</p>
+</div>
+
+<!-- Testimonials -->
+<div class="testimonials-container">
+
+    <div class="testimonial-card">
+        <img src="styles/img/five-star-rating.png" alt="Client Photo">
+        <h3>Nicolas Haney</h3>
+        <div class="role">Business Owner</div>
+        <p>"Mark transformed our workflow with a custom FileMaker solution that’s easy to use and incredibly efficient. Their attention to detail and understanding of our needs was exceptional. He's a very reliable freelancer."</p>
+    </div>
+
+    <div class="testimonial-card">
+        <img src="styles/img/five-star-rating.png" alt="Client Photo">
+        <h3>Jon Watson</h3>
+        <div class="role">Business Owner</div>
+        <p>"We’ve been able to cut processing time in half thanks to Mark. his expertise in FileMaker is unmatched, and they truly care about their clients’ success."</p>
+    </div>
+
+    <div class="testimonial-card">
+        <img src="styles/img/five-star-rating.png" alt="Client Photo">
+        <h3>Pedro Santiago</h3>
+        <div class="role">IT Director</div>
+        <p>"Mark Lorenzo delivered a seamless FileMaker integration for our mobile workflows. The transition was smooth, and the results speak for themselves."</p>
+    </div>
+
+</div>
+
+<!-- <section class="content reveal">
+    <h2>What Our Clients Say</h2>
+    <div class="cards">
+        <div class="card reveal">"Timmy Works transformed our database and workflow completely!" – Client A</div>
+        <div class="card reveal">"Excellent service and attention to detail from start to finish." – Client B</div>
+        <div class="card reveal">"They delivered our FileMaker project ahead of schedule and on budget." – Client C</div>
+    </div>
+</section> -->
+<section class="cta">
+    <h2>Let’s Build Something Great Together</h2>
+    <p>Contact us today and see how Timmy Works can transform your business.</p>
+    <br/>
+    <a href="contact.html">Get in Touch</a>
+</section>
+<footer>
+    <p>&copy; 2024 Timmy Works Consulting. All rights reserved.</p>
+</footer>
+<!-- Animation Script -->
+<script>
+    const cards = document.querySelectorAll('.testimonial-card');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.2 });
+
+    cards.forEach(card => observer.observe(card));
+</script>
+
+</body>
+</html>
