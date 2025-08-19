@@ -408,55 +408,6 @@ form button:hover {
     margin: auto;
 }
 
-/* About Content */
-.about-section {
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px;
-    padding: 60px 20px;
-    align-items: center;
-}
-.about-section img {
-    width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-.about-details h2 {
-    color: #004aad;
-    margin-bottom: 15px;
-}
-.about-details p {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    color: #555;
-}
-
-/* Certifications */
-.certifications {
-    background-color: white;
-    padding: 60px 20px;
-    text-align: center;
-}
-.certifications h2 {
-    color: #004aad;
-    margin-bottom: 30px;
-}
-.cert-logos {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-.cert-logos img {
-    height: 60px;
-    transition: transform 0.3s ease;
-}
-.cert-logos img:hover {
-    transform: scale(1.1);
-}
-
 /* Core Values */
 .values {
     max-width: 1100px;
@@ -606,3 +557,239 @@ form button:hover {
 .client-logos img:hover {
     filter: grayscale(0%);
 }
+
+/*---------------------------------------------------*/
+/*------------------ GENERIC PAGES ------------------*/
+/*---------------------------------------------------*/
+/* GENERIC SECTION */
+/* END OF GENERIC SECTION */
+
+/*---------------------------------------------------*/
+
+/* KEYFRAMES SECTION */
+/* END OF KEYFRAMES SECTION */
+
+/* MEDIA SECTION */ /* Responsive: Small devices */
+/* END OF MEDIA SECTION */
+
+/*---------------------------------------------------*/
+/* NAVBAR SECTION */
+/* END OF NAVBAR SECTION */
+
+/*---------------------------------------------------*/
+
+/* CTA SECTION */
+/* END OF CTA SECTION */
+
+/*---------------------------------------------------*/
+
+/* HERO SECTION */
+/* END OF HERO SECTION */
+
+/*---------------------------------------------------*/
+
+/* PAGE HEADER SECTIONS */
+/* END OF PAGE HEADER SECTIONS */
+
+/*---------------------------------------------------*/
+
+/* DEMO SECTION */
+/* END OF DEMO SECTION  */
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+/*---------------------- HOME  ----------------------*/
+/*---------------------------------------------------*/
+
+/* CORE VALUES SECTION */
+/* END OF CORE VALUES SECTION */
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+/*-------------------- SERVICES ---------------------*/
+/*---------------------------------------------------*/
+
+/* PROCESS SECTION */
+/* END OF PROCESS SECTION */
+
+/*---------------------------------------------------*/
+
+/* SERVICES AND PRODUCTS SECTION */
+/* END OF SERVICES AND PRODUCTS SECTION */
+
+/*---------------------------------------------------*/
+
+/* WHY WORK WITH US SECTION */
+/* END OF WHY WORK WITH US SECTION */
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+/*-------------------- ABOUT US ---------------------*/
+/*---------------------------------------------------*/
+
+/* ABOUT US SECTION */
+.about-section {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    padding: 60px 20px;
+    align-items: center;
+}
+.about-section img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.about-details h2 {
+    color: #004aad;
+    margin-bottom: 15px;
+}
+.about-details p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #555;
+}
+/* END OF ABOUT US SECTION */
+
+/*---------------------------------------------------*/
+
+/* CERTIFICATIONS SECTION */
+.certifications {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.certifications h2 {
+    color: #004aad;
+    margin-bottom: 30px;
+}
+.cert-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.cert-logos img {
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+.cert-logos img:hover {
+    transform: scale(1.1);
+}
+/* END OF CERTIFICATIONS SECTION */
+
+/* OUR TEAM SECTION */
+.our-team {
+  padding: 80px 20px;
+  background: #f9fbff;
+  text-align: center;
+}
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #003366;
+}
+.section-subtitle {
+  color: #666;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+.team-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+.team-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #007BFF;
+}
+.team-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  color: #003366;
+}
+.team-card .role {
+  font-weight: 600;
+  color: #C4B454;
+  margin-bottom: 10px;
+}
+.team-card .bio {
+  font-size: 0.9rem;
+  color: #555;
+}
+/* END OF OUR TEAM SECTION */
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+/*------------------ TESTIMONIALS -------------------*/
+/*---------------------------------------------------*/
+
+/* TESTIMONIALS SECTION */
+/* END OF TESTIMONIALS SECTION */
+
+/*---------------------------------------------------*/
+
+/* CLIENTS SECTION */
+/* END OF CLIENTS SECTION */
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+/*------------------- CONTACT US --------------------*/
+/*---------------------------------------------------*/
+
+/* CONTACTS US SECTION */
+/* END OF CONTACTS US SECTION */
+
+/*---------------------------------------------------*/
+
+/* CONTACT US FORM SECTION */
+/* END OF CONTACT US FORM SECTION */
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+/*--------------------- OTHERS ----------------------*/
+/*---------------------------------------------------*/
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
